@@ -192,7 +192,7 @@
 			}
 		},
 		"typography": {
-			"fontFamily": "var:preset|font-family|old-standard-tt"
+			"fontFamily": "var:preset|font-family|system-font"
 		}
 	},
 	"templateParts": [
