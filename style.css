@@ -1,0 +1,65 @@
+/*
+Theme Name: Waffle House
+Theme URI: 
+Author: km
+Author URI: 
+Description: Blank Theme created via Create Block Theme plugin
+Requires at least: 5.8
+Tested up to: 5.9
+Requires PHP: 5.7
+Version: 0.0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Template: 
+Text Domain: wafflehouse/
+Tags: full-site-editing
+*/
+
+
+
+
+img {
+   border: 5px solid black;
+}
+
+.wp-block-post-featured-image img {
+   border-radius: 20px;
+}
+
+
+.wp-block-site-logo img {
+   border: none;
+   
+}
+
+@media (min-width: 600px) {
+   .wp-block-post-template.is-flex-container.is-flex-container.columns-3>li {
+     width: calc(66.666% - 8.333em);
+     
+  }
+
+   
+}
+
+@media (min-width: 700px) {
+   .wp-block-post-template.is-flex-container.is-flex-container.columns-3>li {
+     width: calc(33.33333% - 0.83333em);
+     
+  }
+
+   
+}
+
+.wp-block-post-excerpt__more-text {
+   text-align: right;
+   
+}
+
+p.wp-block-post-excerpt__more-text a {
+   color: grey;
+   text-transform: lowercase;
+   font-size: .75em;
+   letter-spacing: 1px;
+   
+}
+
